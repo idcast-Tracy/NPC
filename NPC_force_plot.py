@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-os.chdir(r'C:\Users\Tracy\Desktop\2024Winter\My_project\13.SHAP_Deploy') # 设定文件路径
+# os.chdir(r'C:\Users\Tracy\Desktop\2024Winter\My_project\13.SHAP_Deploy') # 设定文件路径
 
 st.set_page_config(page_title= 'Shapely加性解释',page_icon='⭐',layout='wide')
 # st.title('SHAP 机器学习模型可解释')

@@ -16,7 +16,7 @@ a1 = st.selectbox('ICT',(0,1))
 a2 = st.selectbox('EBV.DNA',(0,1))
 # a2 = st.radio('EBV.DNA',(0,1))
 a3 = st.number_input('Albumin')
-a4 = st.number_input('RiskScore')
+a4 = st.number_input('riskScore')
 features = pd.DataFrame({'ICT': [a1],'EBV.DNA': [a2],'Albumin': [a3],'riskScore': [a4]})
 
 
